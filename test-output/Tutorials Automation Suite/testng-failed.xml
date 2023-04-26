@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tutorials Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tutorials Tests(failed)">
+    <classes>
+      <class name="com.tutorials.qa.testcases.LoginTest">
+        <methods>
+          <include name="verifyLoggingIntoTheApplicationUsingValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorials.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Tutorials Tests(failed) -->
+</suite> <!-- Failed suite [Tutorials Automation Suite] -->
